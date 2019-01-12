@@ -1,0 +1,33 @@
+@charset "gb2312";
+/* view */
+#index_view { width: 650px; float: left; margin: 20px 0; overflow: hidden; color: #333; border-radius: 6px; }
+h2.t_nav { border-bottom: #247979 3px solid; font-size: 12px; font-weight: normal; line-height: 48px; height: 40px }
+h2.t_nav a { padding: 10px; }
+h2.t_nav a:first-child { background: #247979; color: #fff; }
+h2.t_nav a:last-child { background: #59BCBC; color: #fff; }
+.technology{border: 1px solid white;background: rgba(255, 20, 0, 0.8);border-radius: 6px;}
+.message{float: left;margin-bottom: 20px; background-color: #222;width: 650px;padding: 15px 0;border-radius: 6px;box-shadow: 1px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);}
+.message:hover{box-shadow: 1px 1px 1px rgba(255,255,255,.3), inset 1px 1px 1px rgba(214, 214, 214, 0.5);}
+#index_view .message a:hover{color: #fff;}
+.message-img{position: relative;padding-left: 10px;float: left;}
+.message-img img{width: 185px;height: 130px;-webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease;}
+.message-img img:hover{opacity: 0.5;}
+.message-new{width: 420px;float: right;}
+.message-title{color: #f8490b;font-size: 16px;}
+.message-author{height: 30px;line-height: 30px;color: #919898;font-size: 14px;}
+.message-author span{margin-right: 30px;}
+.message-content{color: #DDD;height: 60px;line-height: 20px; width: 380px; overflow: hidden;font-size: 14px;}
+/* sunnav */
+.sunnav li { display: block; float: left; line-height: 36px; width: 100%; text-align: center }
+.sunnav li:first-child { background: #1A8A8A; }
+.sunnav li:nth-child(2) { background: #E7A82B; }
+.sunnav li:nth-child(3) { background: #E72B2B; }
+.sunnav li:last-child { background: #085A5A; }
+.sunnav li a { color: #fff; opacity: 0.8 }
+.sunnav li a:hover { padding-left: 20px; opacity: 1 }
+/* Ïà¹ØÎÄÕÂlist */
+.otherlink h2 { border-bottom: #ccc 2px solid; font-size: 12px; font-weight: normal; line-height: 48px; height: 40px }
+.otherlink ul { margin: 10px 0 }
+.otherlink li { line-height: 24px; height: 24px; float: left; margin-right: 20px; }
+.otherlink li a { color: #333; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 270px; display: block; }
+.otherlink li a:hover { color: #000; text-decoration: underline }

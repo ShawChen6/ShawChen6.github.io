@@ -1,0 +1,37 @@
+@charset "gb2312";
+/* CSS Document */
+* { margin: 0; padding: 0 }
+body { font: 12px "ËÎÌå", "Arial Narrow", HELVETICA; color: #3F3E3C; line-height: 1.5; background: #333; }
+img { border: 0; vertical-align: middle }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1 { font: 24px "Î¢ÈíÑÅºÚ", "Microsoft YaHei", Arial, Helvetica, sans-serif }
+p { word-wrap: break-word }
+ul, ol { list-style: none; }
+a { color: #a6a6a6; text-decoration: none; transition: All 1s ease; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; }
+a:hover { color: #fff; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+/* -----------------------nav ----------------- */
+header { width: 100%; background: #222; height: 70px; border-bottom: #464647 1px solid; }
+header nav { margin: 0 auto; width: 1000px; text-align: center; padding-top: 15px }
+header nav ul li { line-height: 40px; display: inline }
+header nav ul li a { color: #E7E7E7; display: block; padding: 0 20px; margin-right: 10px; float: left }
+header nav ul li a:hover, #nav_current { color: #fff; background: rgba(255, 20, 0, 0.8); box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 6px; }
+.index{border: 1px solid white;background: rgba(255, 20, 0, 0.8);border-radius: 6px;}
+/* ---------------------info------------------------- */
+#mainbody { width: 100%; border-top: #000 1px solid; clear: both; overflow: hidden; }
+.info { width: 1000px; margin: 40px auto; overflow: hidden; clear: both }
+.info figure { display: inline-block; width: 630px; height: 250px; position: relative; -webkit-animation: pageTop 6s ease 0.5s backwards; -moz-animation: pageTop 6s ease 0.5s backwards; -ms-animation: pageTop 6s ease 0.5s backwards; -o-animation: pageTop 6s ease 0.5s backwards; animation: pageTop 6s ease 0.5s backwards; float: left; }
+.info figcaption { padding: 20px; position: absolute; top: 20%; left: 0; background: rgba(153,153,153,.8); color: white; opacity: 0; -webkit-transition: opacity .75s ease-out; -moz-transition: opacity .75s ease-out; -o-transition: opacity .75s ease-out; transition: opacity .75s ease-out; }
+.info figure:hover figcaption { opacity: 1; } /* ÓÃopacity ÉèÖÃÊó±ê·ÅÉÏÈ¥ÏÔÊ¾ÎÄ×ÖµÄÐ§¹û */
+.info figcaption strong { display: block; line-height: 40px }
+.info figure img{width: 630px;height: 250px;}
+.writer{border: 1px solid white;background: rgba(255, 20, 0, 0.8);border-radius: 6px;}
+.message{float: left;width: 620px;height: 350px;background-color: #222;border-radius: 6px;box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);}
+.message p{color: #ccc;font-size: 14px;text-indent: 2em;padding: 10px 10px;}
+.message p:nth-child(n+2){color: #ccc;font-size: 14px;text-indent: 2em;padding: 0 10px;padding-bottom: 10px;}
+/* card */
+.card { box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 6px; background: url(../images/quote-bg.png) no-repeat top right rgba(42,42,42,1); width: 350px; float: right; height: 350px; overflow: hidden }
+.card h1 { padding: 10px ;color: #DDD;}
+.card p:first-child { padding: 40px 0 0 40px } /* ½á¹¹ÐÔÎ±ÀàÑ¡Ôñ·û Ñ¡ÔñµÚÒ»¸öp±êÇ©£¬²¢ÇÒÉèÖÃÉÏ¡¢×ó¾àÀëÊÇ40px*/
+.card p { padding: 0 0 0 40px; line-height: 28px; text-shadow: 0px 1px 2px rgba(0,0,0,.5); color: #89919a; -webkit-animation: animations2 5s ease-in-out 5s; -moz-animation: animations2 5s ease-in-out 5s; -o-animation: animations2 5s ease-in-out 5s; -ms-animation: animations2 5s ease-in-out 5s; animation: animations2 5s ease-in-out 5s; }
+

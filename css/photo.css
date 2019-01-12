@@ -1,0 +1,120 @@
+.photo{border: 1px solid white;background: rgba(255, 20, 0, 0.8);border-radius: 6px;}
+.container{
+	width: 1000px;
+	height: 680px;
+	margin: 100px auto;
+	position: relative;
+}
+.pic{
+	width: 200px;
+}
+
+.container img:hover{
+	z-index: 2;
+	box-shadow: 15px 15px 20px rgba(50,50,50,0.4);
+	transform: rotate(0deg) scale(1.40);
+	-webkit-transform:rotate(0deg) scale(1.40);
+	-moz-transform:rotate(0deg) scale(1.40);
+	-o-transform:rotate(0deg) scale(1.40);
+}
+
+.container img{
+	padding: 10px 10px 15px;
+	background:#fff;
+	border:1px solid #ddd;
+	box-shadow: 2px 2px 3px rgba(240,240,240,0.4);
+	z-index: 1;
+	-webkit-transition:all 0.5s ease-in;
+	position: absolute;
+}
+
+.pic1{
+	left: 0;
+	top: 0;
+	transform: rotate(5deg);
+	-webkit-transform:rotate(5deg);
+}
+.pic2{
+	left: 180px;
+	top: 0;
+	transform: rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+}
+.pic3{
+	left: 360px;
+	top: 0;
+	transform: rotate(5deg);
+	-webkit-transform:rotate(5deg);
+}
+.pic4{
+	left: 540px;
+	top: 0;
+	transform: rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+}
+.pic5{
+	right: 60px;
+	top: 0;
+	transform: rotate(5deg);
+	-webkit-transform:rotate(5deg);
+}
+.pic6{
+	left: 0;
+	top: 240px;
+	transform: rotate(10deg);
+	-webkit-transform:rotate(10deg);
+}
+.pic7{
+	left: 180px;
+	top: 240px;
+	transform: rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+}
+.pic8{
+	left: 360px;
+	top: 240px;
+	transform: rotate(5deg);
+	-webkit-transform:rotate(5deg);
+}
+.pic9{
+	left: 540px;
+	top: 240px;
+	transform: rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+}
+.pic10{
+	right: 60px;
+	top: 240px;
+	transform: rotate(5deg);
+	-webkit-transform:rotate(5deg);
+}
+.pic11{
+	left: 0;
+	top: 480px;
+	transform: rotate(10deg);
+	-webkit-transform:rotate(10deg);
+}
+.pic12{
+	left: 180px;
+	top: 480px;
+	transform: rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+}
+.pic13{
+	left: 360px;
+	top: 480px;
+	transform: rotate(5deg);
+	-webkit-transform:rotate(5deg);
+}
+.pic14{
+	left: 540px;
+	top: 480px;
+	transform: rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+}
+.pic15{
+	right: 60px;
+	top: 480px;
+	transform: rotate(5deg);
+	-webkit-transform:rotate(5deg);
+}
